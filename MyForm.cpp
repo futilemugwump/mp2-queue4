@@ -5,9 +5,9 @@ using namespace System::Windows::Forms;
 
 [STAThreadAttribute]
 
-void main(array< String^>^ args) {
+void main(array< String ^> ^ args) {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
 	grafQueue::MyForm form;
-	Application::Run(% form);
+	Application::Run(%form);
 }
